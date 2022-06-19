@@ -12,11 +12,11 @@ const template = `
 package main
 
 import (
-	"log"
+	"fmt"
 )
 
 func main() {
-	log.Print("Let's write some bugs!")
+	fmt.Println("Let's write some bugs!")
 }
 `
 
